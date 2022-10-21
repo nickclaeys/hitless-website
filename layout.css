@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    background-color: #1c1c1c;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    background-color: #444444;
+    flex-basis: 0 0 100%;
+}
+.header-nav a h3 {
+    color: white;
+    text-decoration: none;
+    font-family: 'OptimusPrinceps', sans-serif;
+    font-family: 'OptimusPrincepsSemiBold', sans-serif;
+    font-weight: bold;
+}
+
+
+.page-container {
+    display:flex;
+    flex-direction: column;
+    width: 1000px;
+    align-self: center;
+}
+
+.h1text h1 {
+    font-family: 'OptimusPrinceps', sans-serif;
+    font-family: 'OptimusPrincepsSemiBold', sans-serif;
+    font-weight: bold;
+    color:#b99763
+}
+
+.main-image-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.main-image-container h2 {
+    color: white;
+}
+
+.main-image-container h4{
+    align-self: flex-end;
+    margin-right: 20px;
+    color: white;
+}
+
+.main-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+}
+
+.textbox {
+    margin-bottom: 50px;
+}
+
+.textbox h2 {
+    font-family: 'OptimusPrinceps', sans-serif;
+    font-family: 'OptimusPrincepsSemiBold', sans-serif;
+    font-weight: bold;
+    color: #b99763;
+}
+
+.textbox h3 {
+    color: white;
+}
