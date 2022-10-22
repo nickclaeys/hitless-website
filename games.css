@@ -1,0 +1,28 @@
+.h1header h1 {
+    font-family: 'OptimusPrinceps', sans-serif;
+    font-family: 'OptimusPrincepsSemiBold', sans-serif;
+    font-weight: bold;
+    color: #b99763;
+}
+
+.games-row-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.games-row-1 img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.games-row-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.games-row-2 img {
+    height: 200px;
+    width: 200px;
+
+}
