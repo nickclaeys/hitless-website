@@ -35,6 +35,7 @@ body {
 
 }
 
+
 .page-container {
     display:flex;
     flex-direction: column;
@@ -46,7 +47,7 @@ body {
     font-family: 'OptimusPrinceps', sans-serif;
     font-family: 'OptimusPrincepsSemiBold', sans-serif;
     font-weight: bold;
-    color:#b99763
+    color:#b99763;
 }
 
 .main-image-container {
