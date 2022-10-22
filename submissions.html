@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Hitless Runs</title>
         <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="submissions.css">
+        <link href="http://fonts.cdnfonts.com/css/optimus-princeps" rel="stylesheet">
     </head>
     <body>
         <div class="main-container">
@@ -12,6 +14,33 @@
                 <a href="submissions.html"><h3>Submissions</h3></a>
                 <a href="resources.html"><h3>Resources</h3></a>
                 <a href="games.html"><h3>Games</h3></a>
+            </div>
+            <div class="page-container">
+                <h2>Have you completed a hitless run on one of the games listed in the Games category of this website? Submit it below to be featured on the site in the future.</h2>
+                <fieldset>
+                    <legend>Run Submissions</legend>
+                    <div class="form-container">
+                        <div class="flex-column">
+                            <label for="user-name">Username:</label>
+                            <input type="text" id="user-name" name="user_name">
+                        </div>
+                        <div class="flex-column">
+                            <label for="vod-link">Video Link:</label>
+                            <input type="text" id="vod-link" name="vod_link">
+                        </div>
+                        <div class="flex-row">
+                            <label for="published">Publish the run to the site:</label>
+                            <input type="checkbox" id="published" name="published">
+                        </div>
+                        <div class="flex-column">
+                            <label for="comment-area">Comments:</label>
+                            <textarea id="comments" name="comments"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
             </div>
         </div>
     </body>

@@ -1,0 +1,94 @@
+.page-container { align-self: center;
+justify-content: center;
+align-items: center;
+}
+
+.page-container h2 {
+    text-align: center;
+    color:#b99763;
+    background-color: #1c1c1c;
+    border: 1px solid white;
+}
+
+
+.form-container {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.flex-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 193px;
+}
+
+
+.flex-column label {
+    margin-left: 95px;
+    align-self: flex-start;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    background-color: white;
+    background-color: #1c1c1c;
+    margin: 50px;
+    justify-content: flex-end;
+}
+
+fieldset > * {
+    color:#b99763;
+
+}
+
+legend {
+    color: #b99763;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+
+
+#user-name, #vod-link, #comments {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#comments {
+    height: 100px;
+}
+#published {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+body {
+    background: url(bonfire.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
